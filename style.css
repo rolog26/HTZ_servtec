@@ -1,0 +1,199 @@
+/* Fuente externa */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para titulo  y logo*/
+.tituloYLogo {
+    background-color: #13417D;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+h2 {
+    font-size: 3vh;
+}
+
+h3 {
+    font-size: 2.5vh;
+}
+
+h4, h5 {
+    font-size: 2vh;
+}
+
+.fotoLocal {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.logo {
+    max-width: 100%;
+}
+/* Fin estilo para titulo y logo */
+
+/* Estilo para el encabezado */
+header {
+    background-color: #13417D;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0;
+    justify-content: space-around;
+}
+/* Fin estilo para el encabezado */
+
+/* Estilo para el menu */
+.bg-color {
+    background-color: #13417D;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.link-color {
+    color: #FDFEFF;
+}
+
+.active-color {
+    color: #5F626F
+}
+
+.brand-text {
+    color: #FDFEFF;
+    font-weight: bold;
+}
+
+.button-color {
+    background-color: #FDFEFF;
+}
+
+/* Estilo para los enlaces del menu */
+a {
+    font-size: 3vh;
+    text-decoration: none;
+    padding: 0 100px;
+}
+
+h1, a {
+    font-family: "orbitron", sans-serif;
+    color: #FDFEFF;
+}
+
+/* Estilo para el cuerpo */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2, h3, h4, p {
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 2vh;
+    color: #5F626F;
+}
+
+section p {
+    text-align: center;
+}
+
+/* Estilo para los servicios */
+.servicios {
+    display: grid;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dis1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.dis2{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.nombre-dispositivo {
+    text-align: center;
+}
+
+.img-servicio {
+    
+    width: 100%;
+    padding-left: 10px;
+}
+/* Fin estilo para los servicios */
+
+/* Estilo para los productos */
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.producto {
+    display: block;
+    text-align: center;
+}
+
+.producto img {
+    width: 400px;
+}
+/* Fin estilo para los productos */
+
+/* Estilo para las preguntas y respuestas */
+h5 {
+    color: #5F626F;
+    text-align: center;
+}
+
+.bloque {
+    border: 1px solid;
+    text-align: center;
+    margin: 5px;
+    width: 400px;
+}
+
+.bloque ul {
+    list-style-type: none;
+}
+
+.grupo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Fin estilo para las preguntas y respuestas */
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.redes {
+    list-style: none;
+}
