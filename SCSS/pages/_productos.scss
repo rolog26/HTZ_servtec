@@ -1,0 +1,35 @@
+/* estilos para productos */
+@media only screen and (max-width: 500px) {
+    .productos {
+        flex-direction: column;
+    }
+    .producto {
+        width: 100%;
+    }
+}
+  
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+    .producto {
+        width: 50%;
+    }
+}
+  
+@media only screen and (min-width: 1024px) {
+    .producto {
+        width: 25%;
+    }
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    display: block;
+    text-align: center;
+    img {
+        width: 300px;
+    }
+}

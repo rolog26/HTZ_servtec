@@ -1,0 +1,28 @@
+/* estilos de servicios */
+.servicios {
+    display: grid;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dis1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.dis2{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.nombre-dispositivo {
+    text-align: center;
+}
+
+.img-servicio {
+    
+    width: 100%;
+    padding-left: 10px;
+}

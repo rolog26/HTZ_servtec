@@ -1,0 +1,39 @@
+/* estilo para el menu */
+.bg-color {
+    background-color: #13417D;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.link-color {
+    color: #FDFEFF;
+}
+
+.active-color {
+    color: #5F626F
+}
+
+.brand-text {
+    color: #FDFEFF;
+    font-weight: bold;
+}
+
+.button-color {
+    background-color: #FDFEFF;
+}
+
+/* estilo para los enlaces del menu */
+a {
+    font-size: 3vh;
+    text-decoration: none;
+    padding: 0 100px;
+}
+
+h1, a {
+    font-family: "orbitron", sans-serif;
+    color: #FDFEFF;
+}

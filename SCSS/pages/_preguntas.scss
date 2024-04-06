@@ -1,0 +1,38 @@
+/* estilos para preguntas */
+@media only screen and (max-width: 500px) {
+    .bloque {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+    .bloque {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .bloque {
+        width: 305px;
+    }
+}
+
+h5 {
+    color: #5F626F;
+    text-align: center;
+}
+
+.bloque {
+    border: 1px solid;
+    text-align: center;
+    margin: 5px;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.grupo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

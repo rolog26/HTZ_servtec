@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@import "layout/header";
+
+@import "layout/menu";
+
+@import "pages/inicio";
+
+@import "pages/nosotros";
+
+@import "pages/productos";
+
+@import "pages/servicios";
+
+@import "pages/preguntas";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
