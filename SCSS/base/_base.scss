@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2, h3, h4, p {
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 2vh;
+    color: black;
+}
+
+section {
+    p {
+        text-align: center;
+    }
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+h3 {
+    font-size: 2.5vh;
+}
+
+h4, h5 {
+    font-size: 2vh;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.tituloYLogo {
+    background-color: $color-principal;
+    text-align: center;
+}

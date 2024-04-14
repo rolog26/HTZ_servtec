@@ -1,8 +1,6 @@
 /* estilos para nosotros */
 iframe {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+    @extend %multimedia;
 }
 
 .redes {

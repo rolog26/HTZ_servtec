@@ -1,6 +1,6 @@
 /* estilo para el menu */
 .bg-color {
-    background-color: #13417D;
+    background-color: $color-principal;
 }
 
 .menu ul {
@@ -10,20 +10,20 @@
 }
 
 .link-color {
-    color: #FDFEFF;
+    color: $color-links;
 }
 
 .active-color {
-    color: #5F626F
+    color: $color-active;
 }
 
 .brand-text {
-    color: #FDFEFF;
+    color: $color-links;
     font-weight: bold;
 }
 
 .button-color {
-    background-color: #FDFEFF;
+    background-color: $color-texto;
 }
 
 /* estilo para los enlaces del menu */
@@ -35,5 +35,5 @@ a {
 
 h1, a {
     font-family: "orbitron", sans-serif;
-    color: #FDFEFF;
+    color: $color-links;
 }

@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+@import "utilities/variables";
+
+@import "utilities/extend";
+
+@import "base/base";
+
 @import "layout/header";
 
 @import "layout/menu";
+
+@import "layout/footer";
 
 @import "pages/inicio";
 
@@ -13,8 +21,3 @@
 @import "pages/servicios";
 
 @import "pages/preguntas";
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}

@@ -1,4 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+iframe, .fotoLocal, video {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+#tituloPregunta, .nombre-dispositivo {
+  background-color: #1B70CC;
+  color: #FDFEFF;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: 0;
+}
+
+#parrafoPregunta, .dis1, .dis2 {
+  border: 2px solid #1B70CC;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2, h3, h4, p {
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 2vh;
+  color: black;
+}
+
+section p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5vh;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+h3 {
+  font-size: 2.5vh;
+}
+
+h4, h5 {
+  font-size: 2vh;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.tituloYLogo {
+  background-color: #13417D;
+  text-align: center;
+}
+
 /* estilos del header */
 header {
   background-color: #13417D;
@@ -35,7 +106,7 @@ header {
 }
 
 .button-color {
-  background-color: #FDFEFF;
+  background-color: #4C7585;
 }
 
 /* estilo para los enlaces del menu */
@@ -50,68 +121,17 @@ h1, a {
   color: #FDFEFF;
 }
 
-/* estilos del inicio y body */
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2, h3, h4, p {
-  padding: 10px;
-}
-
-p {
-  text-align: justify;
-  font-size: 2vh;
-  color: #5F626F;
-}
-
-section p {
-  text-align: center;
-}
-
-video {
-  display: block;
-  margin: 0 auto;
-}
-
-.tituloYLogo {
+footer {
+  position: absolute;
   background-color: #13417D;
-  text-align: center;
+  color: #FDFEFF;
+  text-align: end;
+  margin: 0;
+  width: 100%;
 }
 
-h1 {
-  font-size: 5vh;
-}
-
-h2 {
-  font-size: 3vh;
-}
-
-h3 {
-  font-size: 2.5vh;
-}
-
-h4, h5 {
-  font-size: 2vh;
-}
-
-.fotoLocal {
-  max-width: 100%;
-  margin: auto;
-  display: block;
-}
-
-.logo {
-  max-width: 100%;
-}
-
+/* estilos del inicio y body */
 /* estilos para nosotros */
-iframe {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
 .redes {
   list-style: none;
 }
@@ -120,19 +140,20 @@ iframe {
 @media only screen and (max-width: 500px) {
   .productos {
     flex-direction: column;
+    align-items: center;
   }
   .producto {
-    width: 100%;
+    width: 70%;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 1023px) {
   .producto {
-    width: 50%;
+    width: 35%;
   }
 }
 @media only screen and (min-width: 1024px) {
   .producto {
-    width: 25%;
+    width: 24%;
   }
 }
 .productos {
@@ -144,28 +165,40 @@ iframe {
 .producto {
   display: block;
   text-align: center;
+  margin: 5px;
 }
 .producto img {
-  width: 300px;
+  width: 100%;
+  border: 2px solid #1B70CC;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#tituloProducto {
+  color: #FDFEFF;
+  background-color: #1B70CC;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 5px;
 }
 
 /* estilos de servicios */
 .servicios {
   display: grid;
-}
-
-.dispositivos {
-  text-align: center;
+  margin: 5px;
 }
 
 .dis1 {
-  display: grid;
   grid-template-columns: 80% 20%;
 }
 
 .dis2 {
-  display: grid;
   grid-template-columns: 20% 80%;
+}
+
+.dis1, .dis2 {
+  display: grid;
+  padding: 25px;
 }
 
 .nombre-dispositivo {
@@ -174,7 +207,6 @@ iframe {
 
 .img-servicio {
   width: 100%;
-  padding-left: 10px;
 }
 
 /* estilos para preguntas */
@@ -193,29 +225,15 @@ iframe {
     width: 305px;
   }
 }
-h5 {
-  color: #5F626F;
-  text-align: center;
-}
-
 .bloque {
-  border: 1px solid;
   text-align: center;
   margin: 5px;
-}
-.bloque ul {
-  list-style-type: none;
 }
 
 .grupo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-* {
-  margin: 0;
-  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=styles.css.map */

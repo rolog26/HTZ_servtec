@@ -1,57 +1,9 @@
 /* estilos del inicio y body */
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2, h3, h4, p {
-    padding: 10px;
-}
-
-p {
-    text-align: justify;
-    font-size: 2vh;
-    color: #5F626F;
-}
-
-section {
-    p {
-        text-align: center;
-    }
-}
-
 video {
-    display: block;
-    margin: 0 auto;
+    @extend %multimedia;
 }
 
-.tituloYLogo {
-    background-color: #13417D;
-    text-align: center;
-}
-
-h1 {
-    font-size: 5vh;
-}
-
-h2 {
-    font-size: 3vh;
-}
-
-h3 {
-    font-size: 2.5vh;
-}
-
-h4, h5 {
-    font-size: 2vh;
-}
-
-.fotoLocal {
-    max-width: 100%;
-    margin: auto;
-    display: block;
-}
-
-.logo {
-    max-width: 100%;
+.fotoLocal {    
+    @extend %multimedia;
 }

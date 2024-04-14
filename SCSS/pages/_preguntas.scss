@@ -17,22 +17,21 @@
     }
 }
 
-h5 {
-    color: #5F626F;
-    text-align: center;
-}
-
 .bloque {
-    border: 1px solid;
     text-align: center;
     margin: 5px;
-    ul {
-        list-style-type: none;
-    }
 }
 
 .grupo {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#tituloPregunta {
+    @extend %cuadroSuperior;
+}
+
+#parrafoPregunta {
+    @extend %cuadroInferior;
 }

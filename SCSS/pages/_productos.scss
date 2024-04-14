@@ -2,21 +2,22 @@
 @media only screen and (max-width: 500px) {
     .productos {
         flex-direction: column;
+        align-items: center;
     }
     .producto {
-        width: 100%;
+        width: 70%;
     }
 }
   
 @media only screen and (min-width: 501px) and (max-width: 1023px) {
     .producto {
-        width: 50%;
+        width: 35%;
     }
 }
   
 @media only screen and (min-width: 1024px) {
     .producto {
-        width: 25%;
+        width: 24%;
     }
 }
 
@@ -29,7 +30,19 @@
 .producto {
     display: block;
     text-align: center;
+    margin: 5px;
     img {
-        width: 300px;
+        width: 100%;
+        border: 2px solid $color-secundario;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
     }
+}
+
+#tituloProducto {
+    color: $color-links;
+    background-color: $color-secundario;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 5px;
 }
