@@ -19,12 +19,25 @@
     .producto {
         width: 24%;
     }
+
+    .producto:hover {
+        animation: zoom 1s forwards;
+    }
 }
 
 .productos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@keyframes zoom {
+    0% {
+        width: 24%;
+    }
+    100% {
+        width: 25%;
+    }
 }
 
 .producto {
