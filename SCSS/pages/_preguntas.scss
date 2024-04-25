@@ -13,13 +13,8 @@
 
 @media only screen and (min-width: 1024px){
     .bloque {
-        width: 305px;
+        width: 24%;
     }
-}
-
-.bloque {
-    text-align: center;
-    margin: 5px;
 }
 
 .grupo {
@@ -28,10 +23,14 @@
     flex-wrap: wrap;
 }
 
-#tituloPregunta {
-    @extend %cuadroSuperior;
-}
-
-#parrafoPregunta {
-    @extend %cuadroInferior;
+.bloque {
+    text-align: center;
+    margin: 3px;
+    #titulo-pregunta {
+        @extend %cuadro-superior;
+    }
+    #parrafo-pregunta {
+        @extend %cuadro-inferior;
+        background-color: white;
+    }
 }

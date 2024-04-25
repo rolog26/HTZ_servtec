@@ -1,28 +1,29 @@
 /* estilos de servicios */
 .servicios {
-    display: grid;
-    margin: 5px;
+  display: grid;
+  max-width: 900px;
+  margin: 0 auto;
+  .nombre-dispositivo {
+    @extend %cuadro-superior;
+    text-align: center;
+  }
+  .img-servicio {
+    width: 100%;
+  }
 }
 
 .dis1 {
-    grid-template-columns: 80% 20%;
+  grid-template-columns: 80% 20%;
 }
 
-.dis2{
-    grid-template-columns: 20% 80%;
+.dis2 {
+  grid-template-columns: 20% 80%;
 }
 
-.dis1, .dis2 {
-    display: grid;
-    @extend %cuadroInferior;
-    padding: 25px;
-}
-
-.nombre-dispositivo {
-    @extend %cuadroSuperior;
-    text-align: center;
-}
-
-.img-servicio {
-    width: 100%;
+.dis1,
+.dis2 {
+  display: grid;
+  @extend %cuadro-inferior;
+  padding: 25px;
+  background-color: white;
 }

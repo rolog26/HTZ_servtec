@@ -5,4 +5,18 @@ iframe {
 
 .redes {
     list-style: none;
+    text-align: center;
+    a {
+        display: inline-block;
+        width: 250px;
+        font-family: "Rubik", sans-serif;
+        padding: 0;
+        div {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            .logo-red-social {
+                width: 50px;
+            }
+        }
+    } 
 }

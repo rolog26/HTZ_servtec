@@ -1,8 +1,8 @@
 footer {
-position: absolute;
-    background-color: $color-principal;
-    color: $color-links;
-    text-align: end;
-    margin: 0;
-    width: 100%;
+  position: absolute;
+  background-color: $color-principal;
+  color: $color-links;
+  width: 100%;
+  bottom: 0;
+  height: 40px;
 }
